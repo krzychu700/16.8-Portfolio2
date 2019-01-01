@@ -1,0 +1,19 @@
+.facts {
+  background-color: $black;
+  .card {
+    margin: 0; 
+    &__title {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .facts {
+    .card {
+      border-bottom: 1px solid $gold;
+      &__text {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

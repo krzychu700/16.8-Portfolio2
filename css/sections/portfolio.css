@@ -1,0 +1,19 @@
+.portfolio { background-color: lightgray; margin: 0 auto; height: 1200px; width: 1400px; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; }
+
+.portfolio .portfolio__text { margin: 120px 0 30px; }
+
+.portfolio .portfolio__text .portfolio__text-para { padding: 5px 0; font-family: 'Indie Flower', cursive; }
+
+.portfolio .portfolio__text .portfolio__text-para--large { font-family: 'Roboto'; font-size: 40px; font-weight: bold; }
+
+.portfolio .portfolio__examples { width: 1000px; background-color: aquamarine; margin-top: 50px; height: 100%; display: flex; justify-content: space-between; flex-wrap: wrap; padding: 40px 30px; }
+
+.portfolio .portfolio__box { height: 392px; width: 290px; background-color: blue; }
+
+.portfolio .portfolio__box .portfolio__box-image { width: 100%; height: 300px; background-color: red; }
+
+.portfolio .portfolio__box .portfolio__box-text { padding-top: 25px; }
+
+.portfolio .portfolio__box .portfolio__box-text .portfolio__box-text-para { padding: 3px 0; font-family: 'Indie Flower', cursive; }
+
+.portfolio .portfolio__box .portfolio__box-text .portfolio__box-text-para-large { font-family: 'Roboto'; font-size: 18px; font-weight: bold; }

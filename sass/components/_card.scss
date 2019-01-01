@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  &--white {
+    background-color: $white;
+  }
+  &__icon {
+    margin-bottom: 2rem;
+    font-size: 8rem;
+    color: $gold;
+  }
+  &__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    &--white {
+      color: $white;
+    }
+  }
+  &__subtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__text {
+    margin-top: 0;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.8;
+    &--grey {
+      color: $grey-light;
+    }
+  }
+  &__number {
+    position: relative;
+    margin-bottom: 1.8rem;
+    font-size: 4rem;
+    font-weight: bold;
+    &:after {
+      content: '-';
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 300;
+      color: $grey-text;
+    }
+    &--gold {
+      color: $gold;
+    }
+  }
+}
+

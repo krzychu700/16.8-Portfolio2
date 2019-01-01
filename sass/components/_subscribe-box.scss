@@ -1,0 +1,29 @@
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background-color: $grey-dark;
+  &__label {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $grey-light;
+  }
+  &__input {
+    margin-bottom: 4rem;
+    border: none;
+    border-bottom: 1px solid $grey-text;
+    background-color: transparent;
+    font-size: 1.4rem;
+    color: $white;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe-box__input {
+    width: 100%;
+  }
+}

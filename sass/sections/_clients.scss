@@ -1,0 +1,42 @@
+.clients {
+  position: relative;
+  background-color: $white-cream;
+  // carousel styles
+  .carousel {
+    width: 100%;
+    outline: 0;
+  }
+  .carousel-cell {
+    min-height: 400px;
+    width: 100%;
+  }
+  .flickity-button {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  .previous {
+    left: 20px;
+  }
+  .next {
+    right: 20px;
+  }
+  // card personalisation
+  .card__text {
+    width: 60%;
+  }
+}
+
+@media (max-width: 568px) {
+  .clients {
+    overflow: scroll;
+    .card__text {
+      width: 80%;
+    }
+  }
+}

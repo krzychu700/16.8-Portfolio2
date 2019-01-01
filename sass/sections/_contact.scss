@@ -1,0 +1,31 @@
+.contact {
+  background-color: $white-cream;
+  .btn {
+    margin: 0 auto;
+  }
+}
+
+.form {
+  margin-top: 8rem;
+  width: 100%;
+  &__input,
+  &__textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid $grey-bg;
+    padding-bottom: 5px;
+    background-color: transparent;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    [class*="col-"] {
+      margin-left: 0;
+    }
+  }
+}
